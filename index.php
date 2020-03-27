@@ -149,7 +149,7 @@ echo <<<EOL
   <option value="jesse-y-bebe-">Jesse Y Bebe</option>
 </Select>
 
-<label for="meeting">Date<a href="http://las.mine.nu:49152/?s=9">:</a> </label><input id="meeting" type="date" value="$today"/>
+<label for="meeting">Date<a href="http://raspberrypi/?s=9">:</a> </label><input id="meeting" type="date" value="$today"/>
 
 <button class=button onclick="myFunction(9)">Play Podcast</button><BR><BR>
 
@@ -185,7 +185,7 @@ function myFunction(n){
     break;
 	
     case 8:
-          	document.location.href='http://las.mine.nu:49152/destroy_session.php';
+          	document.location.href='http://raspberrypi/destroy_session.php';
 			setTimeout(dummy, 5000);
     break;	
 	
@@ -218,7 +218,7 @@ function myFunction(n){
          document.getElementById('player').pause;
 		 document.getElementById('player').currentTime =0;
 	}
-    document.location.href='http://las.mine.nu:49152/destroy_session.php';
+    document.location.href='http://raspberrypi/destroy_session.php';
    break;
    
    case 99:

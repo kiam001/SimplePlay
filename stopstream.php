@@ -1,6 +1,6 @@
 <?php
 session_start();
-echo "<meta http-equiv='refresh' content='2; url=http://las.mine.nu:49152/'>";
+echo "<meta http-equiv='refresh' content='2; url=http://raspberrypi/'>";
 
 /*$processid2=shell_exec("ps -fU www-data | grep vlc | awk '{print $2}'"); 
 $processid=shell_exec("ps -ef | grep avconv -i | grep -v $$ | awk '{print $2}'"); 

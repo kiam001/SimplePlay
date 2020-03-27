@@ -11,6 +11,6 @@ if(isset($_POST["submit"])) {
         echo "Sorry, there was an error uploading your file.";
     }
     }
-echo "<BR><BR><A HREF='http://las.mine.nu:49152/uploads/" . basename( $_FILES["fileToUpload"]["name"]) . "'>File was received.</A><BR>";
-echo "<BR><BR><A HREF='http://las.mine.nu:49152/upload.html'>Click here to upload another file</A>";
+echo "<BR><BR><A HREF='http://raspberrypi/uploads/" . basename( $_FILES["fileToUpload"]["name"]) . "'>File was received.</A><BR>";
+echo "<BR><BR><A HREF='http://raspberrypi/upload.html'>Click here to upload another file</A>";
 ?>
